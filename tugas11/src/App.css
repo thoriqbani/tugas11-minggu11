@@ -1,0 +1,119 @@
+.cover {
+  background-color: ;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Parentbox {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Foto {
+  width: 100%;
+  height: 80%;
+  background: whitesmoke;
+}
+
+.Foto img {
+  width: 100%;
+}
+
+.Deskripsi {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Deskripsi .Info {
+  line-height: 2.0;
+  color: rgb(18, 11, 49);
+}
+
+.Deskripsi .Title {
+  margin: 0;
+}
+
+/* button merah */
+.Deskripsi .warnaR .button2 {
+  padding: 20px;
+  background-color: silver;
+  border-radius: 100%;
+}
+
+.Deskripsi .warnaR .button2:hover {
+  background-color: rgb(105, 105, 105);
+}
+
+/* button kuning */
+.Deskripsi .warnaR .button3 {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: yellow;
+  border-radius: 100%;
+}
+
+.Deskripsi .warnaR .button3:hover {
+  background-color: rgb(126, 126, 17);
+}
+
+/* button */
+.Deskripsi .warnaR .button4 {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: red;
+  border-radius: 100%;
+}
+
+.Deskripsi .warnaR .button4:hover {
+  background-color: rgb(94, 9, 9);
+}
+
+/* button type 1 */
+.Deskripsi .type .bakso {
+  background-color: darkturquoise;
+  padding: 5px;
+}
+
+.Deskripsi .type .bakso:hover {
+  background-color: rgb(26, 117, 121);
+}
+
+.Deskripsi .type .bakso2 {
+  background-color: darkturquoise;
+  padding: 5px;
+  margin-left: 2.5px;
+}
+
+.Deskripsi .type .bakso2:hover {
+  background-color: rgb(26, 117, 121);
+}
+
+.Deskripsi .type .bakso3 {
+  background-color: darkturquoise;
+  padding: 5px;
+  margin-left: 2.5px;
+}
+
+.Deskripsi .type .bakso3:hover {
+  background-color: rgb(26, 117, 121);
+}
+
+.Deskripsi .deskripsi .button {
+  margin-top: 20px;
+  padding: 5px;
+  justify-content: center;
+  background-color: darkturquoise;
+  width: 10%;
+  border-radius: 20px;
+
+}
+
+.Deskripsi .deskripsi .button:hover {
+  background-color: rgb(26, 117, 121);
+}
